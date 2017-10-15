@@ -1,0 +1,163 @@
+.inputContainer {
+	position: relative;
+	float: left;
+}
+
+.formError {
+	position: absolute;
+	height: 15px;
+	top: 300px;
+	left: 300px;
+	display: block;
+	z-index: 5000;
+}
+
+.ajaxSubmit {
+	padding: 20px;
+	background: #55ea55;
+	border: 1px solid #999;
+	display: none
+}
+
+.formError .formErrorContent {
+	position:relative;
+	font-family: '宋体';
+	font-size: 12px;
+	height: 15px;
+	line-height: 15px;
+	float: left;
+	margin-left: 5px;
+	color: #f60;
+}
+
+.propmt-Icon {
+	float: left;
+	height: 15px;
+	line-height: 15px;
+	width: 15px;
+	background-image: url("validation.png")/*tpa=http://member.yundaex.com/statics/plugins/validate02/css/validation.png*/;
+	background-repeat: no-repeat;
+}
+
+.error-Icon {
+	background-position: 0 0;
+}
+
+.warn-Icon {
+	background-position: -30px 0;
+}
+
+.pass-Icon {
+	background-position: -15px 0;
+}
+
+.load-Icon {
+	background-image: url("loading-2.gif")/*tpa=http://member.yundaex.com/statics/plugins/validate02/css/loading.gif*/;
+	background-repeat: no-repeat;
+}
+
+.warnPopup .formErrorContent {
+	color: gray;
+}
+
+.passPopup .formErrorContent {
+	color: gray;
+}
+
+.loadPopup .formErrorContent {
+	color: gray;
+}
+
+.formError .formErrorArrow {
+	width: 15px;
+	margin: -2px 0 0 13px;
+  	position:relative;
+  	z-index: 5006;
+}
+
+.formError .formErrorArrowBottom {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+	margin: 0px 0 0 12px;
+  top:2px;
+}
+
+.formError .formErrorArrow div {
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	box-shadow: 0 2px 3px #444;
+	-moz-box-shadow: 0 2px 3px #444;
+	-webkit-box-shadow: 0 2px 3px #444;
+	font-size: 0px;
+	height: 1px;
+	background: #F60;
+	margin: 0 auto;
+	line-height: 0;
+	font-size: 0;
+	display: block;
+}
+
+.formError .formErrorArrowBottom div {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.greenPopup .formErrorArrow div {
+	background: #33be40;
+}
+
+.blackPopup .formErrorArrow div {
+	background: #393939;
+	color: #FFF;
+}
+
+.formError .formErrorArrow .line10 {
+	width: 15px;
+	border: none;
+}
+
+.formError .formErrorArrow .line9 {
+	width: 13px;
+	border: none;
+}
+
+.formError .formErrorArrow .line8 {
+	width: 11px;
+}
+
+.formError .formErrorArrow .line7 {
+	width: 9px;
+}
+
+.formError .formErrorArrow .line6 {
+	width: 7px;
+}
+
+.formError .formErrorArrow .line5 {
+	width: 5px;
+}
+
+.formError .formErrorArrow .line4 {
+	width: 3px;
+}
+
+.formError .formErrorArrow .line3 {
+	width: 1px;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-bottom: 0 solid #fff;
+}
+
+.formError .formErrorArrow .line2 {
+	width: 3px;
+	border: none;
+	background: #fff;
+}
+
+.formError .formErrorArrow .line1 {
+	width: 1px;
+	border: none;
+	background: #fff;
+}
